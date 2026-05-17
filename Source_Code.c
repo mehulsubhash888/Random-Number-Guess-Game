@@ -28,11 +28,11 @@ int main()
             }
             else if (x > RandomNumber)
             {
-                printf("Lower Number Please\n+");
+                printf("Lower Number Please\n");
             }
             else
             {
-                printf("Congrats");
+                printf("Congrats\n");
             }
             count++;
         } while (x != RandomNumber);

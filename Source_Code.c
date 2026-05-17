@@ -8,8 +8,9 @@
 
 int main()
 {
-    printf("Welcome\nIn this game, the computer will think of a number,\nand you have to find out what that number is");
-    printf("by guessing it again and again.\nIt will tell the status of you number accordingly(like your number is greater or smaller than the computer's number)\n");
+    printf("Welcome\n--In this game, the computer will think of a number,\n--and you have to find out what that number is");
+    printf("by guessing it again and again.\n--It will tell the status of you number accordingly(like your number is greater or smaller than the computer's number)\n");
+    printf("\n");
     int play_again;
 
     do

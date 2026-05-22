@@ -2,7 +2,7 @@
 
 > *A high-stakes, terminal-based number guessing game with dynamic difficulty levels and persistent stat tracking. Test your intuition, read the hints, and outsmart the system!*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 [![Language: C](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![Difficulty Levels: 3](https://img.shields.io/badge/Difficulty%20Levels-3-brightgreen.svg)](#-game-modes)
 [![Status: Active](https://img.shields.io/badge/Status-Active-success.svg)](#)

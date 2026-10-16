@@ -323,9 +323,9 @@ You are free to use, modify, and distribute this project, provided proper attrib
 ## 👤 Author
 
 **Your Name / Team**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@mehulsubhash888](https://github.com/mehulsubhash888)
 - Email: your.email@example.com
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- You may also like: [high-and-low.vercel.app](https://high-and-low.verel.app)
 
 ---
 
@@ -341,8 +341,8 @@ You are free to use, modify, and distribute this project, provided proper attrib
 
 Have questions or found a bug?
 
-- 🐛 **Report Issues:** [GitHub Issues](https://github.com/yourusername/arcade-number-guesser/issues)
-- 💬 **Discussions:** [GitHub Discussions](https://github.com/yourusername/arcade-number-guesser/discussions)
+- 🐛 **Report Issues:** [GitHub Issues](https://github.com/mehulsubhash888/Random-Number-Guess-Game/issues)
+- 💬 **Discussions:** [GitHub Discussions](https://github.com/mehulsubhash888/Random-Number-Guess-Game/discussions)
 - 📧 **Email:** your.email@example.com
 
 ---
@@ -361,8 +361,8 @@ If you liked this game, please consider:
 
 <div align="center">
 
-**Made with 💻 and ☕ by [Your Name]**
+**Made with 💻 and ☕ by [Mehul Kumar]**
 
-*Last Updated: 2024*
+*Last Updated: 16-10-2026*
 
 </div>

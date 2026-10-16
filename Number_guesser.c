@@ -1,6 +1,6 @@
 // Author          -  Mehul Kumar
-// Creation Date   -  05-04-02026
-// Updated On      -  22-05-2026
+// Creation Date   -  05-04-2026
+// Last Updated On -  16-10-2026
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -40,6 +40,22 @@ void print_lives(int remaining, int max) {
     printf("]\n");
 }
 
+// Helper function to display the 8-Bit Arcade startup banner
+void print_banner() {
+    printf("\n");
+    printf(" ██████╗ ██╗   ██╗███████╗███████╗███████╗    ██╗████████╗\n");
+    printf("██╔════╝ ██║   ██║██╔════╝██╔════╝██╔════╝    ██║╚══██╔══╝\n");
+    printf("██║  ███╗██║   ██║█████╗  ███████╗███████╗    ██║   ██║   \n");
+    printf("██║   ██║██║   ██║██╔══╝  ╚════██║╚════██║    ██║   ██║   \n");
+    printf("╚██████╔╝╚██████╔╝███████╗███████║███████║    ██║   ██║   \n");
+    printf(" ╚═════╝  ╚═════╝ ╚══════╝╚══════╝╚══════╝    ╚═╝   ╚═╝   \n");
+    printf("==========================================================\n");
+    printf("          WELCOME TO THE ARCADE NUMBER GUESSER!           \n");
+    printf("==========================================================\n");
+    printf("-- Guess the number while balancing your finite lives.\n");
+    printf("-- Listen closely to the computer's hints to survive!\n\n");
+}
+
 int main()
 {
     // Seed the random number generator ONCE at startup
@@ -48,11 +64,8 @@ int main()
     // Initialize the game statistics
     GameStats stats = {0, 0, 999, 0}; // Set best_score to 999 initially as a placeholder high score
     
-    printf("==================================================\n");
-    printf("     WELCOME TO THE ARCADE NUMBER GUESSER!       \n");
-    printf("==================================================\n");
-    printf("-- Guess the number while balancing your finite lives.\n");
-    printf("-- Listen closely to the computer's hints to survive!\n\n");
+    // Display the 8-Bit Arcade Title Screen
+    print_banner();
     
     int play_again;
 
@@ -66,8 +79,8 @@ int main()
         // 1. Difficulty Level Prompt
         printf("Choose your difficulty level:\n");
         printf("1. Easy   (Range: 1-50,   10 Lives)\n");
-        printf("2. Medium (Range: 1-100,  7 Lives)\n");
-        printf("3. Hard   (Range: 1-200,  5 Lives)\n");
+        printf("2. Medium (Range: 1-100,   7 Lives)\n");
+        printf("3. Hard   (Range: 1-200,   5 Lives)\n");
         printf("Enter choice (1, 2, or 3): ");
         difficulty = get_valid_int(); // Robustly grab choice
 
@@ -144,10 +157,10 @@ int main()
         }
 
         // 5. Print Dynamic Profile Stats Panel
-        printf("\n==================================================\n");
-        printf("               YOUR CURRENT PERFORMANCE            \n");
-        printf("==================================================\n");
-        printf(" Total Games Handled : %d\n", stats.total_games);
+        printf("\n==========================================================\n");
+        printf("                  YOUR CURRENT PERFORMANCE                \n");
+        printf("==========================================================\n");
+        printf(" Total Games Handled   : %d\n", stats.total_games);
         printf(" Games Successfully Won: %d\n", stats.games_won);
         printf(" Lifetime Guesses Fired: %d\n", stats.total_attempts);
         if (stats.best_score != 999) {
@@ -155,7 +168,7 @@ int main()
         } else {
             printf(" Best Winning Score    : No wins recorded yet\n");
         }
-        printf("==================================================\n");
+        printf("==========================================================\n");
         
         // 6. Loop check for Rematch
         printf("\nWould you like to try another sector? (1 for Yes, 0 to Quit): ");

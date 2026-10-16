@@ -10,6 +10,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+// Include Windows header ONLY if compiling on Windows
+#ifdef _WIN32
+#include <windows.h>
+#endif
+
 // Struct to track overall player statistics across all rounds
 typedef struct {    
     int total_games;    
@@ -62,6 +67,11 @@ void print_banner() {
 
 int main()
 {
+    // Force Windows console to use UTF-8 so 8-bit blocks and emojis render properly
+    #ifdef _WIN32
+    SetConsoleOutputCP(CP_UTF8);
+    #endif
+
     // Seed the random number generator ONCE at startup
     srand(time(0)); 
 

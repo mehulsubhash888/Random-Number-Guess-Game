@@ -1,6 +1,10 @@
-// Author          -  Mehul Kumar
-// Creation Date   -  05-04-2026
-// Last Updated On -  16-10-2026
+// ============================================================================
+// Project         : GUESS IT - Arcade Number Guesser
+// Author          : Mehul Kumar
+// Creation Date   : 05-04-2026
+// Last Updated On : 16-10-2026
+// License         : MIT License (Copyright (c) 2026 Mehul Kumar)
+// ============================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
